@@ -572,3 +572,193 @@
 // }
 // console.log(countVowel("HELLO WORLD")) // 3
 // console.log(countVowel("Junior Web Developer")) // 8
+
+
+// ###########
+
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   // Change code below this line
+//     switch (totalSpent === totalSpent) {
+//         case totalSpent >= 50000:
+//             discount = GOLD_DISCOUNT;
+//             break;
+//         case totalSpent >= 20000:
+//             discount = SILVER_DISCOUNT;
+//             break;
+//         case totalSpent >= 5000:
+//             discount = BRONZE_DISCOUNT;
+//             break;
+//         default:
+//             discount = BASE_DISCOUNT;
+//     }
+//     console.log(discount);
+    
+//   // Change code above this line
+//   return discount;
+// }
+// getDiscount(137000);
+// getDiscount(46900);
+// getDiscount(8250);
+// getDiscount(1300);
+// getDiscount(5000);
+// getDiscount(20000);
+// getDiscount(50000);
+
+
+// ############3
+
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+
+//   message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you"
+//   console.log(message);
+//   // Change code above this line
+//     return message;
+
+// }
+// checkStorage(100, 50);
+// checkStorage(100, 130);
+// checkStorage(200, 20);
+// checkStorage(200, 150);
+// checkStorage(150, 180);
+
+
+
+// ################3
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+//   // Change code below this line
+//   message = ADMIN_PASSWORD === password ? "Access is allowed" : "Access denied, wrong password!"
+//   // Change code above this line
+//     console.log(message);
+//   return message;
+// }
+// checkPassword("jqueryismyjam");
+// checkPassword("angul4r1sl1f3");
+// checkPassword("r3actsux");
+
+
+// #####################
+
+// function getSubscriptionPrice(type) {
+//   let price;
+
+//  switch (type) {
+//     case "professional" :
+//       price = 20;
+//       break;
+
+//     case "organization" :
+//       price = 50;
+//       break;
+
+//     case "starter":
+//       price = 0;
+//       break;
+//   }
+
+//     console.log(price);
+//   return price;
+// }
+// getSubscriptionPrice("professional");
+// getSubscriptionPrice("organization");
+// getSubscriptionPrice("starter");
+
+
+// #####################
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+  
+//     switch (password) {
+//         case null:
+//             message = "Canceled by user!";
+//             break;
+//         case ADMIN_PASSWORD:
+//             message ="Welcome!";
+//             break;
+//         default:
+//             message = "Access denied, wrong password!";
+          
+//     }
+//   console.log(message);
+//   return message;
+// }
+// checkPassword("mangohackzor");
+// checkPassword(null);
+// checkPassword("polyhax");
+// checkPassword("jqueryismyjam");
+
+
+// ######################
+// function getShippingCost(country) {
+//     let message;
+//     let price;
+  
+//     switch (country) {
+//         case 'China':
+//             price = 100;
+//             message =`Shipping to ${country} will cost ${price} credits`;
+//             break;
+//         case 'Chile':
+//             price = 250;
+//             message =`Shipping to ${country} will cost ${price} credits`;
+//             break;
+//         case 'Australia':
+//             price = 170;
+//             message =`Shipping to ${country} will cost ${price} credits`;
+//             break;
+//         case 'Jamaica':
+//             price = 120;
+//             message =`Shipping to ${country} will cost ${price} credits`;
+//             break;
+//         default:
+//             message = "Sorry, there is no delivery to your country" ;
+//     }
+    
+//     console.log(message);
+//     return message;
+
+// }
+
+// getShippingCost("Australia");
+// getShippingCost("Germany");
+// getShippingCost("China");
+// getShippingCost("Chile");
+// getShippingCost("Jamaica");
+// getShippingCost("Sweden");
+
+
+// #######
+
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
+//   console.log(message);
+//   return message;
+// }
+// getNameLength("Poly");
+// getNameLength("Harambe");
+// getNameLength("Billy");
+// getNameLength("Joe");
+
+
+// #######
+
+// const courseTopic = "JavaScript essentials";
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length - 1];
+// console.log(courseTopic);
+// console.log(courseTopicLength);
+// console.log(firstElement);
+// console.log(lastElement);
+
