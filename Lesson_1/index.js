@@ -483,7 +483,7 @@
 // console.log(str.includes('WORLD')); // => false
 
 
-const str = 'Hello world';
+// const str = 'Hello world';
 // Метод endsWith() - Дозволяє визначити, чи завершується рядок символами (підрядком), зазначеними в дужках, повертаючи true або false.
 // console.log(str.endsWith(' world')); // => true
 // console.log(str.endsWith('ld')); // => true
