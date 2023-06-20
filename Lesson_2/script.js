@@ -292,7 +292,7 @@
 //     const b = 20;
 //     console.log('1 глобальна', a); // => true
 //     console.log('1 локальна', b); // => true
-//     if(true) { 
+//     if(true) {
 //         const c = 30;
 //         console.log('2 глобальна', a); // => true
 //         console.log('2 локальна', b); // => true
@@ -332,6 +332,28 @@
 
 
 /***** Цикл for *****/
+
+
+// for (initialization; condition; post-expression) {
+//    statements
+// }
+
+// for (ініціалізація; умова; пост-вираз) {
+//    тіло циклу
+// }
+
+// АЛГОРИТМ ВИКОНАННЯ ЦИКЛУ for:
+// ініціалізація (initialization) - ВИКОНУЄТЬСЯ ОДИН РАЗ ДО ПОЧАТКУ ЦИКЛУ.
+// ТОБТО СТВОРЮЄМО ЗМІННУ-ЛІЧИЛЬНИК ТА ЇЇ ПОЧАТКОВЕ ЗНАЧЕННЯ.
+// умова (condition) - ВИРАЗ ЩО ОЦІНЮЄТЬСЯ ПЕРЕД КОЖНОЮ ІТЕРАЦІЄЮ (ПОВТОРЕННЯМ) ЦИКЛУ.
+// ТІЛО ЦИКЛУ ВИКОНУЄТЬСЯ ТІЛЬКИ ТОДІ, КОЛИ умова (condition) ПРИВОДИТЬСЯ ДО ЗНАЧЕННЯ true.
+// ЦИКЛ ЗАВЕРШУЄТЬСЯ, КОЛИ умова (condition) ПРИВОДИТЬСЯ ДО ЗНАЧЕННЯ false.
+// тіло циклу (statements) - НАБІР ІНСТРУКЦІЙ, КОТРІ БУДУТЬ ВИКОНУВАТИСЯ ПРИ КОЖНІЙ ІТЕРАЦІЇ (ПОВТОРЕННІ) ЦИКЛУ.
+// тіло циклу (statements) - ВИКОНУЄТЬСЯ ЯКЩО умова (condition) ПРИВОДИТЬСЯ ДО ЗНАЧЕННЯ true.
+// пост-вираз (post-expression) - ВИКОНУЄТЬСЯ В КІНЦІ КОЖНОГО ПОВТОРЕННЯ ЦИКЛУ, ПЕРЕД ПЕРЕВІРКОЮ УМОВИ.
+// ВИКОРИСТОВУЄТЬСЯ ДЛЯ ОНОВЛЕННЯ ЗМІННОЇ ЛІЧИЛЬНИКА.
+// СХЕМА РОБОТИ ЦИКЛУ ЛІЧИЛЬНИКА for
+// ініціалізація (initialization) ==> умова (condition) ==> тіло циклу (statements) ==> пост-вираз (post-expression).
 
 // let i;
 // const str = 'hello world';
@@ -412,6 +434,23 @@
 // 3 - green, action go
 // 4 - Будь-який інший колір або значення відповідно світлофор не працює, action be careful
 
+// let message = prompt('Вкажіть колір світлофору який бачите ?');
+// if (message) {
+//     message = message.toLocaleLowerCase();
+// }
+// let result;
+// if (message === 'red') {
+//     result = 'STOP'
+// } else if (message === 'yellow') {
+//     result = 'READY'
+// } else if (message === 'green') {
+//     result = 'GO'
+// } else {
+//     result = 'Type valid color'
+// }
+// console.log(result);
+// console.log(message);
+
 
 // let message = prompt('color ?');
 // let action;
@@ -447,6 +486,26 @@
 // 3 - green, action go
 // 4 - Будь-який інший колір або значення відповідно світлофор не працює, action be careful
 
+
+// let message = prompt('Вкажіть колір світлофору який бачите ?');
+// if (message) {
+//     message = message.toLocaleLowerCase();
+// }
+// let result;
+// switch (message) {
+//     case 'red':
+//         result = 'STOP';
+//         break;
+//     case 'yellow':
+//         result = 'READY'
+//         break;
+//     case 'green':
+//         result = 'GO'
+//         break;
+//     default:
+//         result = 'TYPE VALID COLOR'
+// }
+// console.log(result);
 
 
 // let message = prompt('color ?');
