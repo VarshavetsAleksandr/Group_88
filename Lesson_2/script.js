@@ -762,3 +762,94 @@
 // console.log(firstElement);
 // console.log(lastElement);
 
+// ##############
+// function getSubstring(string, length) {
+//   const substring = string.slice (string[0], length);
+//     console.log(substring);
+//   return substring;
+// }
+// getSubstring("Hello world", 3);
+// getSubstring("Hello world", 6);
+// getSubstring("Hello world", 8);
+// getSubstring("Hello world", 11);
+// getSubstring("Hello world", 0);
+
+
+// ########################3
+// function formatMessage(message, maxLength) {
+//   let result;
+//     const a = message.slice(message[0], maxLength);
+//     const b = maxLength < message.length ? "..." : ""
+//     result = `${a}${b}`;
+//     console.log(result);
+//   return result;
+// }
+// formatMessage("Curabitur ligula sapien", 16);
+// formatMessage("Curabitur ligula sapien", 23);
+// formatMessage("Vestibulum facilisis purus nec", 20);
+// formatMessage("Vestibulum facilisis purus nec", 30);
+// formatMessage("Nunc sed turpis a felis in nunc fringilla", 15);
+// formatMessage("Nunc sed turpis a felis in nunc fringilla", 41);
+
+
+// ###############
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase();
+// console.log(normalizedInput);
+//   return normalizedInput;
+// }
+// normalizeInput("Hello world");
+// normalizeInput("This ISN'T SpaM");
+// normalizeInput("Big SALE");
+
+
+// #########################
+// function checkForName(fullName, name) {
+//     const result = fullName.includes(name);
+//     console.log(result);
+//   return result;
+// }
+// checkForName("Egor Kolbasov", "Egor");
+// checkForName("Egor Kolbasov", "egor");
+// checkForName("Egor Kolbasov", "egOr");
+// checkForName("Egor Kolbasov", "Zhenya");
+// checkForName("Vadim Nekrasov", "Vadim");
+// checkForName("Vadim Nekrasov", "vadim");
+// checkForName("Vadim Nekrasov", "Dima");
+
+
+// #############################
+// function checkForSpam(message) {
+//     let result;
+//     message = message.toLowerCase();
+//     const a = "sale";
+//     const b = "spam";
+//     result = message.includes(a) || message.includes(b)
+//     console.log(result);
+//   return result;
+// }
+// checkForSpam("Latest technology news");
+// checkForSpam("JavaScript weekly newsletter");
+// checkForSpam("Get best sale offers now!");
+// checkForSpam("Amazing SalE, only tonight!");
+// checkForSpam("Trust me, this is not a spam message");
+// checkForSpam("Get rid of sPaM emails. Our book in on sale!");
+// checkForSpam("[SPAM] How to earn fast money?");
+
+// function checkForSpam(message) {
+//     let result;
+//     message = message.toLowerCase();
+//     const a = "sale";
+//     const b = "spam";
+//     result = message.includes(a) || message.includes(b)
+//     console.log(result);
+//   return result;
+// }
+// checkForSpam("Latest technology news");
+// checkForSpam("JavaScript weekly newsletter");
+// checkForSpam("Get best sale offers now!");
+// checkForSpam("Amazing SalE, only tonight!");
+// checkForSpam("Trust me, this is not a spam message");
+// checkForSpam("Get rid of sPaM emails. Our book in on sale!");
+// checkForSpam("[SPAM] How to earn fast money?");
+
