@@ -222,7 +222,7 @@
 //       // якщо довжина ітеруємого елементу білше ніж довжина змінної let longestWord
 //       //   то перевизначаємо змінну let longestWord
 //         longestWord = words[i];
-//       } 
+//       }
 //   }
 //   console.log(longestWord);
 //   return longestWord;
@@ -264,3 +264,140 @@
 // filterArray([12, 24, 8, 41, 76], 38);
 // filterArray([12, 24, 8, 41, 76], 20);
 // filterArray([1, 2, 3, 45, 66, 78, 24, 11, 7, 8], 15);
+
+// Автоперевірка №2 24/32
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+//   const findFruit = fruits.includes(fruit);
+//   console.log(findFruit);
+//   return findFruit;
+// }
+// checkFruit("plum");
+// checkFruit("mandarin");
+// checkFruit("pear");
+// checkFruit("Pear");
+// checkFruit("apple");
+// checkFruit("");
+
+// Автоперевірка №2 25/32
+// function getCommonElements(array1, array2) {
+//   let array3 = [];
+//   for (let i = 0; i < array2.length; i += 1) {
+//     if (array2.includes(array1[i])) {
+//       array3.push(array1[i]);
+//     }
+//   }
+//   console.log(array3);
+//   return array3;
+// }
+// getCommonElements([1, 2, 3], [2, 4]);
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]);
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]);
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
+// getCommonElements([1, 2, 3], [10, 20, 30]);
+// getCommonElements();
+
+// Автоперевірка №2 26/32
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   for (const a of order) {
+//     total += a;
+//   }
+//   console.log(total);
+//   return total;
+// }
+// calculateTotalPrice([12, 85, 37, 4]);
+// calculateTotalPrice([164, 48, 291]);
+// calculateTotalPrice([412, 371, 94, 63, 176]);
+// calculateTotalPrice([]);
+// calculateTotalPrice([1, 2, 3, 4, 5, 6, 7, 8, 141, 12412, 12]);
+
+// Автоперевірка №2 27/32
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   for (const valueNum of numbers) {
+//     if (valueNum > value) {
+//       filteredNumbers.push(valueNum);
+//     }
+//   }
+//   console.log(filteredNumbers);
+//   return filteredNumbers;
+// }
+// filterArray([1, 2, 3, 4, 5], 3);
+// filterArray([1, 2, 3, 4, 5], 4);
+// filterArray([1, 2, 3, 4, 5], 5);
+// filterArray([12, 24, 8, 41, 76], 38);
+// filterArray([12, 24, 8, 41, 76], 20);
+// filterArray([12, 24, 8, 41, 76], 20);
+
+// Автоперевірка №2 28/32
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
+// Автоперевірка №2 29/32
+// function getEvenNumbers(start, end) {
+//   const arr = [];
+//   for (let i = start; i <= end; i += 1) {
+//     let number = i % 2;
+//     if (number === 0) {
+//       arr.push(i);
+//     }
+//   }
+//   console.log(arr);
+//   return arr;
+// }
+// getEvenNumbers(2, 5);
+// getEvenNumbers(3, 11);
+// getEvenNumbers(6, 12);
+// getEvenNumbers(8, 8);
+// getEvenNumbers(7, 7);
+
+// Автоперевірка №2 30/32
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     console.log(number);
+//     break;
+//   }
+// }
+
+// Автоперевірка №2 31/32
+// function findNumber(start, end, divisor) {
+//   let number;
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+//       console.log(number);
+//       return number;
+//     }
+//   }
+// }
+// findNumber(2, 6, 5); //5
+// findNumber(8, 17, 3); //9
+// findNumber(6, 9, 4); //8
+// findNumber(16, 35, 7); //21
+
+// Автоперевірка №2 32/32
+// function includes(array, value) {
+//   let bool = false;
+//   for (const a of array) {
+//     if (a === value) {
+//       bool = true;
+//     }
+//   }
+//   console.log(bool);
+//   return bool;
+// }
+// includes([1, 2, 3, 4, 5], 3);
+// includes([1, 2, 3, 4, 5], 17);
+// includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter");
+// includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus");
+// includes(["apple", "plum", "pear", "orange"], "plum");
+// includes(["apple", "plum", "pear", "orange"], "kiwi");
