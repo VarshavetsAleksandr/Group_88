@@ -221,8 +221,8 @@
 //     if (words[i].length > longestWord.length) {
 //       // якщо довжина ітеруємого елементу білше ніж довжина змінної let longestWord
 //       //   то перевизначаємо змінну let longestWord
-//       longestWord = words[i];
-//     }
+//         longestWord = words[i];
+//       } 
 //   }
 //   console.log(longestWord);
 //   return longestWord;
