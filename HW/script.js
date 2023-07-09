@@ -974,6 +974,89 @@
 // atTheOldToad.getPotions();
 
 // Автоперевірка №3 38/41
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   addPotion(potionName) {
+//     this.potions.push(potionName);
+//     console.log(this.potions);
+//     return this.potions;
+//   },
+// };
+// atTheOldToad.addPotion("Invisibility");
+// atTheOldToad.addPotion("Power potion");
 // Автоперевірка №3 39/41
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     const idxPotion = this.potions.indexOf(potionName);
+//     this.potions.splice(idxPotion, 1);
+//     console.log(this.potions);
+//   },
+// };
+
+// atTheOldToad.removePotion("Dragon breath");
+// atTheOldToad.removePotion("Speed potion");
 // Автоперевірка №3 40/41
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   updatePotionName(oldName, newName) {
+//     const idxPotion = this.potions.indexOf(oldName);
+//     this.potions.splice(idxPotion, 1, newName);
+//     console.log(this.potions);
+//   },
+// };
+// atTheOldToad.updatePotionName("Dragon breath", "Polymorth");
+// atTheOldToad.updatePotionName("Stone skin", "Invisibility");
+
 // Автоперевірка №3 41/41
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+
+//   getPotions() {
+//     return this.potions;
+//   },
+
+//   addPotion(newPotion) {
+//     for (const potion of this.potions) {
+//       if (potion.name === newPotion.name) {
+//         return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//       }
+//     }
+//     this.potions.push(newPotion);
+//   },
+
+//   removePotion(potionName) {
+//     for (i = 0; i < this.potions.length; i += 1) {
+//       if (this.potions[i].name === potionName) {
+//         this.potions.splice(i, 1);
+//       }
+//     }
+//     return `Potion ${potionName} is not in inventory!`;
+//   },
+
+//   updatePotionName(oldName, newName) {
+//     for (i = 0; i < this.potions.length; i += 1) {
+//       if (this.potions[i].name === oldName) {
+//         this.potions[i].name = newName;
+//       }
+//     }
+//     console.log(this.potions);
+//     return `Potion ${oldName} is not in inventory!`;
+//   },
+// };
+
+// atTheOldToad.getPotions();
+// atTheOldToad.addPotion({ name: "Invisibility", price: 620 });
+// atTheOldToad.addPotion({ name: "Power potion", price: 270 });
+// atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
+// atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
+// atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
+// atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
+// atTheOldToad.removePotion("Dragon breath");
+// atTheOldToad.removePotion("Speed potion");
+// atTheOldToad.updatePotionName("Dragon breath", "Polymorth");
+// atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion");
